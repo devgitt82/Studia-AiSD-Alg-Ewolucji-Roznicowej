@@ -38,13 +38,15 @@ Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkc
 W pierwszym przykładzie szukamy minimum funkcji |x-5|.
 
 **Wejście**
-<code>1 1
+<code>
+1 1
 -10 10
 x 5 - abs 
 </code>
 
 **Wyjście**
-<code>4.997559
+<code>
+4.997559
 </code>
 
 ---
@@ -52,12 +54,14 @@ x 5 - abs
 W drugim przykładzie minimalizujemy funkcję (x-5)2+(y-5)2. Odleglosc od punktu (5, 5).
 
 **Wejście**
-<code>2 1
+<code>
+2 1
 0 10
 0 10
 x 5 - sqr y 5 - sqr +
 </code>
 
 **Wyjście**
-<code>5.000000 4.999695
+<code>
+5.000000 4.999695
 </code>
