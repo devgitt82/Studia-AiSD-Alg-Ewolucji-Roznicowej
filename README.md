@@ -29,9 +29,9 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
 **Wyjście**
     
 Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
----    
-**Przykłady**
 
+**Przykłady**
+---
 W pierwszym przykładzie szukamy minimum funkcji |x-5|, w drugim minimalizujemy funkcję (x-5)2+(y-5)2.
 
 **Wejście**
@@ -45,6 +45,7 @@ x 5 - abs
 <code>
 4.997559
 </code>
+
 ---
 
 **distance from point (5, 5)**
