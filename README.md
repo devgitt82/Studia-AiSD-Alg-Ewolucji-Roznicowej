@@ -33,18 +33,18 @@ Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkc
 **Przykład**
 
 Wejście
-<code> 
+<code>
 1 1
 -10 10
 x 5 - abs 
 </code>
 
-- Wyjście
+Wyjście
 <code>
 4.997559
 </code>
 
-- Wejście
+Wejście
   
 **distance from point (5, 5)**
 2 1
