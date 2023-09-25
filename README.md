@@ -1,4 +1,4 @@
-# Minimalizacja funkcji (alg. populacyjny)
+# Minimalizacja funkcji (alg. populacyjny) - zadanie na studiach z przedmiotu AiSD na roku drugim.
 
 **Program szukający minimum funkcji podanej na wejściu. Agorytm metaheurystyczny - algorytm ewolucji różnicowej.**
 
