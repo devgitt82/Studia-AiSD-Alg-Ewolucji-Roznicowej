@@ -29,30 +29,34 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
 **Wyjście**
     
 Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
-    
-**Przykład**
+---    
+**Przykłady**
 
-Wejście
+W pierwszym przykładzie szukamy minimum funkcji |x-5|, w drugim minimalizujemy funkcję (x-5)2+(y-5)2.
+
+**Wejście**
 <code>
 1 1
 -10 10
 x 5 - abs 
 </code>
 
-Wyjście
+**Wyjście**
 <code>
 4.997559
 </code>
+---
 
-Wejście
-  
 **distance from point (5, 5)**
+Wejście
+<code>
 2 1
 0 10
 0 10
 x 5 - sqr y 5 - sqr +
+</code>
 
-        - Wyj�cie
+Wyjście
 5.000000 4.999695
 
-- W pierwszym przyk�adzie szukamy minimum funkcji |x-5|, w drugim minimalizujemy funkcj� (x-5)2+(y-5)2.
+-
