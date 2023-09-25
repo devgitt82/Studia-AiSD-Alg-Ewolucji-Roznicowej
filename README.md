@@ -8,7 +8,7 @@
 
 **Wejście**
 
-    Na początku wejścia zero lub więcej linii będzie zaczynało się od znaku # (hasz). Linie te są komentarzem i należy je pominąć. 
+Na początku wejścia zero lub więcej linii będzie zaczynało się od znaku # (hasz). Linie te są komentarzem i należy je pominąć. 
 Po komentarzach, w osobnej linii, pojawią się: liczba argumentów funkcji n oraz limit czasu t. Argumenty nazywane są pojedynczymi literami w następującej kolejności: x, y, z, a, b, c, d, e, f, g.
 Następnie w n kolejnych liniach pojawią się zakresy dla kolejnych argumentów. Każdy zakres to para dwóch liczb: dolna granica zakresu i górna granica zakresu (granice należą do zakresu). 
 Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w postaci ONP. Operacje, które mogą się pojawić to:
@@ -24,23 +24,23 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
 * **exp** zastąpienie wartości v na szczycie stosu przez e podniesione do potęgi v,
 * **log** zastąpienie wartości v na szczycie stosu przez logarytm natrualny z v,
 
-Z limitu czasu podanego na wejściu można było skorzystać do wyznaczenia liczby iteracji algorytmu.
+    Z limitu czasu podanego na wejściu można skorzystać do wyznaczenia liczby iteracji algorytmu.
 
 **Wyjście**
 
-Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
+    Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
     
- - Przykład
-        - Wejście
+**Przykład**
+- Wejście
 1 1
 -10 10
 x 5 - abs
 
-        - Wyjście
+- Wyjście
 4.997559
 
         - Wejście
-# distance from point (5, 5)
+**distance from point (5, 5)**
 2 1
 0 10
 0 10
