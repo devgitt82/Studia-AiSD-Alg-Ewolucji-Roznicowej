@@ -31,16 +31,21 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
 Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
     
 **Przykład**
-Wejście
-<code> 1 1
-    -10 10
-    x 5 - abs 
+- Wejście
+
+<code> 
+1 1
+-10 10
+x 5 - abs 
 </code>
 
 - Wyjście
+<code>
 4.997559
+</code>
 
-        - Wejście
+- Wejście
+  
 **distance from point (5, 5)**
 2 1
 0 10
