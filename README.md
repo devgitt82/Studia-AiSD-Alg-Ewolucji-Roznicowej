@@ -5,8 +5,8 @@
 **Wymagania**
 ---
 
-    Algorytm nie musi znajdować dokładnego rozwiązania, ale także za bardzo nie może się mylić.
-    W zadaniu można korzystać z obiektów i funkcji dostępnych w plikach nagłówkowych random i chrono.
+* Algorytm nie musi znajdować dokładnego rozwiązania, ale także za bardzo nie może się mylić.
+* W zadaniu można korzystać z obiektów i funkcji dostępnych w plikach nagłówkowych random i chrono.
 
 **Wejście**
 ---
