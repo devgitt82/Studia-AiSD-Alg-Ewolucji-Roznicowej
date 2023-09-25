@@ -11,17 +11,17 @@ Na początku wejścia zero lub więcej linii będzie zaczynało się od znaku # 
 Po komentarzach, w osobnej linii, pojawią się: liczba argumentów funkcji n oraz limit czasu t. Argumenty nazywane są pojedynczymi literami w następującej kolejności: x, y, z, a, b, c, d, e, f, g.
 Następnie w n kolejnych liniach pojawią się zakresy dla kolejnych argumentów. Każdy zakres to para dwóch liczb: dolna granica zakresu i górna granica zakresu (granice należą do zakresu). 
 Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w postaci ONP. Operacje, które mogą się pojawić to:
-* +, -, \*, / podstawowe operatory,
+* **+, **-, **\*, **/ podstawowe operatory,
 * pow potęgowanie np. 2 3 pow pozostawia na stosie 8,
 * sin, cos funkcje trygonometryczne (argument w radianach) np. 0 cos pozostawia na stosie 1,
 * x, y, z, a, b, c, d, e, f, g dodanie na stos wartości odpowiadającej odpowiedniemu argumentowi,
 * pi dodanie na stos liczby Pi,
 * neg  zmiana znaku wartości na szczycie stosu,
 * abs wartość bezwzględna wartości na szczycie stosu,
-            - sqr podniesienie wartości na szczycie stosu do kwadratu,
-            - sqrt wyciągnięcie pierwiastka kwadratowego z wartości na szczycie stosu ,
-            - exp zastąpienie wartości v na szczycie stosu przez e podniesione do potęgi v,
-            - log zastąpienie wartości v na szczycie stosu przez logarytm natrualny z v,
+* sqr podniesienie wartości na szczycie stosu do kwadratu,
+* sqrt wyciągnięcie pierwiastka kwadratowego z wartości na szczycie stosu ,
+* exp zastąpienie wartości v na szczycie stosu przez e podniesione do potęgi v,
+* log zastąpienie wartości v na szczycie stosu przez logarytm natrualny z v,
 
 Z limitu czasu podanego na wejściu można było skorzystać do wyznaczenia liczby iteracji algorytmu.
 - Wyjście
