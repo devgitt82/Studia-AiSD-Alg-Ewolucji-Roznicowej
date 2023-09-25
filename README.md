@@ -33,7 +33,6 @@ Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkc
 **Przykład**
 
 Wejście
-
 <code> 
 1 1
 -10 10
