@@ -12,7 +12,7 @@ Po komentarzach, w osobnej linii, pojawią się: liczba argumentów funkcji n or
 Następnie w n kolejnych liniach pojawią się zakresy dla kolejnych argumentów. Każdy zakres to para dwóch liczb: dolna granica zakresu i górna granica zakresu (granice należą do zakresu). 
 Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w postaci ONP. Operacje, które mogą się pojawić to:
 * **+, **-, **\*, **/ podstawowe operatory,
-* pow potęgowanie np. 2 3 pow pozostawia na stosie 8,
+* **pow potęgowanie np. 2 3 pow pozostawia na stosie 8,
 * sin, cos funkcje trygonometryczne (argument w radianach) np. 0 cos pozostawia na stosie 1,
 * x, y, z, a, b, c, d, e, f, g dodanie na stos wartości odpowiadającej odpowiedniemu argumentowi,
 * pi dodanie na stos liczby Pi,
