@@ -52,6 +52,7 @@ x 5 - abs
 ---
 
 W drugim przykładzie minimalizujemy funkcję (x-5)2+(y-5)2. Odleglosc od punktu (5, 5).
+
 **Wejście**
 <code>
 2 1
