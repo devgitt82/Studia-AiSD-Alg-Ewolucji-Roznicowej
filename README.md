@@ -32,9 +32,9 @@ Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkc
     
 **Przykład**
 - Wejście
-    1 1
-    -10 10
-    x 5 - abs
+* 1 1
+* -10 10
+* x 5 - abs
 
 - Wyjście
 4.997559
