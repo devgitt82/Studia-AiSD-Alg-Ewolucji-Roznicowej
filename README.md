@@ -1,6 +1,6 @@
 # Minimalizacja funkcji (alg. populacyjny).
 
-**Program szukający minimum funkcji podanej na wejściu. Agorytm metaheurystyczny - algorytm ewolucji różnicowej. Zadanie  przedmiotu AiSD na drugim roku studiów, programowanie proceduralne bez STL.**
+**Program szukający minimum funkcji podanej na wejściu. Agorytm metaheurystyczny - algorytm ewolucji różnicowej. Zadanie  przedmiotu AiSD na drugim semestrze studiów, programowanie proceduralne bez STL.**
 
 **Wymagania**
 ---
