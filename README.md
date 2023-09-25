@@ -1,40 +1,41 @@
-## Minimalizacja funkcji (alg. populacyjny)
+# Minimalizacja funkcji (alg. populacyjny)
 
-Program szukaj�cy minimum funkcji podanej na wej�ciu. Agorytm metaheurystyczny - algorytm ewolucji r�nicowej.
+Program szukający minimum funkcji podanej na wejściu. Agorytm metaheurystyczny - algorytm ewolucji różnicowej.
 
-Algorytm nie musi znajdowa� dok�adnego rozwi�zania, ale nie mo�e tak�e za bardzo si� myli�.
+Algorytm nie musi znajdować dokładnego rozwiązania, ale nie może także za bardzo się mylić.
 
-- Wej�cie
-        - Na pocz�tku wej�cia zero lub wi�cej linii b�dzie zaczyna�o si� od znaku # (hasz). Linie te s� komentarzem i nale�y je pomin��. 
-        - Po komentarzach, w osobnej linii, pojawi� si�: liczba argument�w funkcji� n� oraz limit czasu� t. Argumenty nazywane s� pojedynczymi literami w nast�puj�cej kolejno�ci: x, y, z, a, b, c, d, e, f, g. - - 
-        - Nast�pnie w� n� kolejnych liniach pojawi� si� zakresy dla kolejnych argument�w. Ka�dy zakres to para dw�ch liczb: dolna granica zakresu i g�rna granica zakresu (granice nale�� do zakresu). 
-        - Na ko�cu podana b�dzie funkcja do minimalizacji. Funkcja b�dzie podana w postaci ONP. Operacje, kt�re mog� si� pojawi� to:
-            - +, -, *, /� � podstawowe operatory,
-            - pow� � pot�gowanie np.� 2 3 pow� pozostawia na stosie 8,
-            - sin, cos� � funkcje trygonometryczne (argument w radianach) np.� 0 cos� pozostawia na stosie 1,
-            - x, y, z, a, b, c, d, e, f, g� � dodanie na stos warto�ci odpowiadaj�cej odpowiedniemu argumentowi,
-            - pi� � dodanie na stos liczby ?,
-            - neg� � zmiana znaku warto�ci na szczycie stosu,
-            - abs� � warto�� bezwzgl�dna warto�ci na szczycie stosu,
-            - sqr� � podniesienie warto�ci na szczycie stosu do kwadratu,
-            - sqrt� � wyci�gni�cie pierwiastka kwadratowego z warto�ci na szczycie stosu ,
-            - exp� � zast�pienie warto�ci� v� na szczycie stosu przez e podniesione do pot�gi� v,
-            - log� � zast�pienie warto�ci� v� na szczycie stosu przez logarytm natrualny z� v,
+- Wejście
+        - Na początku wejścia zero lub więcej linii będzie zaczynało się od znaku # (hasz). Linie te są komentarzem i należy je pominąć. 
+        - Po komentarzach, w osobnej linii, pojawią się:
+                  - liczba argumentów funkcji n oraz limit czasu t. Argumenty nazywane są pojedynczymi literami w następującej kolejności: x, y, z, a, b, c, d, e, f, g. - - 
+        - Następnie w n kolejnych liniach pojawią się zakresy dla kolejnych argumentów. Każdy zakres to para dwóch liczb: dolna granica zakresu i górna granica zakresu (granice należą do zakresu). 
+        - Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w postaci ONP. Operacje, które mogą się pojawić to:
+            - +, -, *, / podstawowe operatory,
+            - pow potęgowanie np. 2 3 pow pozostawia na stosie 8,
+            - sin, cos funkcje trygonometryczne (argument w radianach) np. 0 cos pozostawia na stosie 1,
+            - x, y, z, a, b, c, d, e, f, g dodanie na stos wartości odpowiadającej odpowiedniemu argumentowi,
+            - pi dodanie na stos liczby Pi,
+            - neg  zmiana znaku wartości na szczycie stosu,
+            - abs wartość bezwzględna wartości na szczycie stosu,
+            - sqr podniesienie wartości na szczycie stosu do kwadratu,
+            - sqrt wyciągnięcie pierwiastka kwadratowego z wartości na szczycie stosu ,
+            - exp zastąpienie wartości v na szczycie stosu przez e podniesione do potęgi v,
+            - log zastąpienie wartości v na szczycie stosu przez logarytm natrualny z v,
 
-Z limitu czasu podanego na wej�ciu mo�na było skorzysta� do wyznaczenia liczby iteracji algorytmu.
-- Wyj�cie
-        - Na wyj�ciu nale�y wypisa� n� liczb - warto�ci argument�w, dla kt�rych funkcja osi�ga minimum.
+Z limitu czasu podanego na wejściu można było skorzystać do wyznaczenia liczby iteracji algorytmu.
+- Wyjście
+        - Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
     
- - Przyk�ad
-        - Wej�cie
+ - Przykład
+        - Wejście
 1 1
 -10 10
 x 5 - abs
 
-        - Wyj�cie
+        - Wyjście
 4.997559
 
-        - Wej�cie
+        - Wejście
 # distance from point (5, 5)
 2 1
 0 10
