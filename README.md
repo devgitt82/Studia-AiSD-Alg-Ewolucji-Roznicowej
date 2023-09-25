@@ -3,10 +3,12 @@
 **Program szukający minimum funkcji podanej na wejściu. Agorytm metaheurystyczny - algorytm ewolucji różnicowej.**
 
 **Wymagania**
+---
 
     Algorytm nie musi znajdować dokładnego rozwiązania, ale także za bardzo nie może się mylić.
 
 **Wejście**
+---
 
 Na początku wejścia zero lub więcej linii będzie zaczynało się od znaku # (hasz). Linie te są komentarzem i należy je pominąć. 
 Po komentarzach, w osobnej linii, pojawią się: liczba argumentów funkcji n oraz limit czasu t. Argumenty nazywane są pojedynczymi literami w następującej kolejności: x, y, z, a, b, c, d, e, f, g.
@@ -27,6 +29,7 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
     Z limitu czasu podanego na wejściu można skorzystać do wyznaczenia liczby iteracji algorytmu.
 
 **Wyjście**
+---
     
 Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
 
@@ -49,7 +52,7 @@ x 5 - abs
 ---
 
 **distance from point (5, 5)**
-Wejście
+**Wejście**
 <code>
 2 1
 0 10
@@ -57,7 +60,7 @@ Wejście
 x 5 - sqr y 5 - sqr +
 </code>
 
-Wyjście
+**Wyjście**
+<code>
 5.000000 4.999695
-
--
+</code>
