@@ -27,7 +27,7 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
     Z limitu czasu podanego na wejściu można skorzystać do wyznaczenia liczby iteracji algorytmu.
 
 **Wyjście**
-
+    
     Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
     
 **Przykład**
