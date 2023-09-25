@@ -31,10 +31,11 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
 Na wyjściu należy wypisać n liczb - wartości argumentów, dla których funkcja osiąga minimum.
     
 **Przykład**
-- Wejście
+Wejście
 <code> 1 1
     -10 10
-    x 5 - abs </code>
+    x 5 - abs 
+</code>
 
 - Wyjście
 4.997559
