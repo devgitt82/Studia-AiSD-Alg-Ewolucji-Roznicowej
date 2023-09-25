@@ -3,6 +3,7 @@
 **Program szukający minimum funkcji podanej na wejściu. Agorytm metaheurystyczny - algorytm ewolucji różnicowej.**
 
 **Wymagania**
+
 Algorytm nie musi znajdować dokładnego rozwiązania, ale także za bardzo nie może się mylić.
 
 **Wejście**
