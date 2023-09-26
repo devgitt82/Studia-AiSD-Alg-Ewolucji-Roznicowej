@@ -31,7 +31,7 @@ Na końcu podana będzie funkcja do minimalizacji. Funkcja będzie podana w post
 > * **sqrt** wyciągnięcie pierwiastka kwadratowego z wartości na szczycie stosu ,
 > * **exp** zastąpienie wartości v na szczycie stosu przez e podniesione do potęgi v,
 > * **log** zastąpienie wartości v na szczycie stosu przez logarytm natrualny z v,
-
+> 
 >    Z limitu czasu podanego na wejściu można skorzystać do wyznaczenia liczby iteracji algorytmu.
 
 **Wyjście**
