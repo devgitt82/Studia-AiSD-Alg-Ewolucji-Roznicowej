@@ -52,7 +52,6 @@ x 5 - abs
 
 **Wyjście**
 ```
-5.0
 4.997559
 ```
 
@@ -61,14 +60,14 @@ x 5 - abs
 W drugim przykładzie minimalizujemy funkcję (x-5)2+(y-5)2. Odleglosc od punktu (5, 5).
 
 **Wejście**
-<code>
+```
 2 1
 0 10
 0 10
 x 5 - sqr y 5 - sqr +
-</code>
+```
 
 **Wyjście**
-<code>
+```
 5.000000 4.999695
-</code>
+```
